@@ -1,0 +1,22 @@
+body {
+    padding: 40px;
+    background-color: #eee;
+}
+
+.details {
+    width: min(100%, 960px);
+    margin-inline: auto;
+    background-color: #fff;
+}
+
+.summary {
+    padding: 16px;
+    color: white;
+    background-color: #0b57d0;
+    cursor: pointer;
+}
+
+.content {
+    /* display: none; */
+    padding: 16px;
+}
