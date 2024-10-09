@@ -17,6 +17,10 @@ body {
 }
 
 .content {
-    /* display: none; */
+    display: none;
     padding: 16px;
+}
+
+.content.active {
+    display: block;
 }
