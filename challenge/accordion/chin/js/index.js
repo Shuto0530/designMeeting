@@ -1,10 +1,17 @@
 $(function(){
     $("dd").css("display","none");
     $("dt").click(function(){
-        if($("dd").css("display")=="block"){
-            $("dd:not(:animated)").slideUp("slow");
-        }else{
-            $("dd").slideDown("slow");
-        }
+        $("dd:not(:animated)").slideToggle("slow");
     });
 });
+
+//$(function(){
+//    $("dd").css("display","none");
+//    $("dt").click(function(){
+//        if($("dd").css("display")=="block"){
+//            $("dd:not(:animated)").slideUp("slow");
+//        }else{
+//            $("dd").slideDown("slow");
+//        }
+//    });
+//});
