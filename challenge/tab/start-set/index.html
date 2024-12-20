@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タブ切り替えサンプル</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/custom-css-reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <style>
+
+    </style>
+
+    <section class="wrap">
+        <h2>おすすめツアー</h2>
+
+        <!-- data属性の値をボタンとタブで対応させる -->
+
+        <div class="tabButtons">
+            <button type="button" class="tabButton js_tabButton" data-target="d">国内</button>
+            <button type="button" class="tabButton js_tabButton" data-target="i">海外</button>
+        </div>
+
+        <section class="tabContent js_tabContent active" data-tab="d">
+            国内ツアーコンテンツ
+        </section>
+
+        <section class="tabContent js_tabContent" data-tab="i">
+            海外ツアーコンテンツ
+        </section>
+    </section>
+</body>
+
+</html>
